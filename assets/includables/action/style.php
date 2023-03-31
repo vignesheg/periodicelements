@@ -19,22 +19,22 @@ function formindicator(){
 }
 
 function preloader(){
-    if(isset($_GET["search"]) && $_GET["atomicmass"] != ""){
+  
         echo "<script>
                  setTimeout(function(){
                     $('.loader_bg').fadeToggle();
                  },1500);
                  </script>";
-    }
+    
 }
 
 function preloaderdiv(){
-    if(isset($_GET["search"]) && $_GET["atomicmass"] != ""){
-        echo "<div class='loader_bg mt-4'>
+    
+        echo "<div class='loader_bg mt-2'>
         <div class='loader'>
       </div>
       </div>";
-    }
+    
 }
 
 ?>
